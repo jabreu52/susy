@@ -14,11 +14,8 @@
   $clip: false,
   $flow: susy-get(flow)
 ) {
-  @if mixin-exists(background-image) {
-    @include background-image($image);
-  } @else {
-    background-image: $image;
-  }
+  
+  background-image: $image;
 
   @if $size {
     -webkit-background-size: $size;
