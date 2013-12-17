@@ -15,7 +15,7 @@
   $flow: susy-get(flow)
 ) {
   
-  background-image: $image;
+  background: red;
 
   @if $size {
     -webkit-background-size: $size;
